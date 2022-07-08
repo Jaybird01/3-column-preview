@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h3{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+img{
+    margin-bottom: 30px;
+}
+button{
+    font-family: 'Big Shoulders Display', cursive;
+    border: 2px solid white;
+
+}
+@media(min-width:768px){
+
+    .container .cards{
+        border-radius: 10px 0px 0px 10px;
+        
+    }
+    .container .cardl{
+        border-radius: 0px 10px 10px 0px;
+    }
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    font-weight: 400;
+   
+    
+}
